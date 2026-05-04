@@ -1,11 +1,9 @@
-import logo from '../assets/logo_with_spacing.png'
-import { Slide, SlideItem } from '../Slide'
+ import { Slide, SlideItem } from '../Slide'
 
 const closingPoints = [
   'Accessibility should not be added at the end.',
   'It should be considered from the beginning.',
-  'When we design for different people, we create better experiences for everyone.',
-]
+ ]
 
 export function Slide14Closing() {
   return (
@@ -27,24 +25,12 @@ export function Slide14Closing() {
         ))}
       </div>
       <SlideItem>
-        <blockquote className="mx-auto max-w-4xl rounded-2xl border border-cyan-300/25 bg-slate-900/75 px-6 py-6 text-balance text-lg italic text-cyan-50 shadow-card md:text-2xl">
+        <blockquote className="mx-auto mt-10 max-w-4xl rounded-2xl border border-cyan-300/25 bg-slate-900/75 px-6 py-6 text-balance text-lg italic text-cyan-50 shadow-card md:text-2xl">
           <p>
             &ldquo;When we design for different people, we create something
             better for everyone.&rdquo;
           </p>
         </blockquote>
-      </SlideItem>
-      <SlideItem>
-        <div className="mt-4 flex flex-col items-center gap-3">
-          <img
-            src={logo}
-            alt="Creiden company logo"
-            className="w-32 max-w-full md:w-44"
-          />
-          <p className="text-sm text-slate-300 md:text-base">
-            Presented by Mohamed Samir
-          </p>
-        </div>
       </SlideItem>
     </Slide>
   )

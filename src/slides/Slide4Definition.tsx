@@ -11,7 +11,7 @@ export function Slide4Definition() {
   return (
     <Slide
       title="Accessibility Helps More People Than You Think"
-      imageUrl="https://images.unsplash.com/photo-1573496359142-bdd38587631a?auto=format&fit=crop&w=1400&q=80"
+      imageUrl="https://aphsa.org/wp-content/uploads/2025/07/Why-Digital-Accessibility-Benefits-Everyone-Access-Beyond-Disabilities-771x257.png"
       imageAlt="Different people benefiting from accessible design"
     >
       <div className="mx-auto grid max-w-4xl gap-3 text-left">

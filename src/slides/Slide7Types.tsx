@@ -1,11 +1,10 @@
 import { Slide, SlideItem } from '../Slide'
 
 const reasons = [
-  'It promotes fairness and inclusion.',
-  'It improves the experience for everyone.',
-  'It reduces frustration.',
-  'It helps more people use products and services.',
-  "It shows respect for users' different needs.",
+  'Everyone should be able to work, learn, and get care like anyone else.',
+  'Anyone can need help sometimes: noise, injury, tired eyes, or getting older.',
+  'Simple, clear access means less stress for families and more independence.',
+  'It is about respect and not leaving people out.',
 ]
 
 export function Slide7Types() {

@@ -1,16 +1,14 @@
 import type { ComponentType } from "react";
 import { Slide0Cover } from "./Slide0Cover.tsx";
-import { Slide10Rules } from "./Slide10Rules.tsx";
-import { Slide11Impact } from "./Slide11Impact.tsx";
 import { Slide12TryThis } from "./Slide12TryThis.tsx";
 import { Slide13Takeaway } from "./Slide13Takeaway.tsx";
 import { Slide14Closing } from "./Slide14Closing.tsx";
+import { Slide15Thanks } from "./Slide15Thanks.tsx";
 import { Slide1Title } from "./Slide1Title.tsx";
 import { Slide2Question } from "./Slide2Question.tsx";
 import { Slide3Insight } from "./Slide3Insight.tsx";
 import { Slide4Definition } from "./Slide4Definition.tsx";
 import { Slide5Examples } from "./Slide5Examples.tsx";
-import { Slide6WhyItMatters } from "./Slide6WhyItMatters.tsx";
 import { Slide7Types } from "./Slide7Types.tsx";
 import { Slide8BadVsGood } from "./Slide8BadVsGood.tsx";
 import { Slide9Problems } from "./Slide9Problems.tsx";
@@ -28,6 +26,11 @@ export const slides: SlideDefinition[] = [
     Component: Slide0Cover,
   },
   {
+    id: "what-is-a11y",
+    title: "What Does Accessibility Mean?",
+    Component: Slide3Insight,
+  },
+  {
     id: "title",
     title: "Accessibility: Making the World Easier for Everyone",
     Component: Slide1Title,
@@ -36,11 +39,6 @@ export const slides: SlideDefinition[] = [
     id: "opening-question",
     title: "Have You Ever Felt Something Simple Was Hard to Use?",
     Component: Slide2Question,
-  },
-  {
-    id: "what-is-a11y",
-    title: "What Does Accessibility Mean?",
-    Component: Slide3Insight,
   },
   {
     id: "more-than-disability",
@@ -52,11 +50,7 @@ export const slides: SlideDefinition[] = [
     title: "A Small Feature, A Big Impact",
     Component: Slide5Examples,
   },
-  {
-    id: "daily-life",
-    title: "Accessibility Is All Around Us",
-    Component: Slide6WhyItMatters,
-  },
+
   {
     id: "why-matters",
     title: "Why Is Accessibility Important?",
@@ -72,16 +66,7 @@ export const slides: SlideDefinition[] = [
     title: "Common Mistakes to Avoid",
     Component: Slide9Problems,
   },
-  {
-    id: "content",
-    title: "Make Content Easier to Understand",
-    Component: Slide10Rules,
-  },
-  {
-    id: "physical-spaces",
-    title: "Accessibility in Places and Environments",
-    Component: Slide11Impact,
-  },
+
   {
     id: "technology",
     title: "Accessibility in Apps, Websites, and Digital Tools",
@@ -96,5 +81,10 @@ export const slides: SlideDefinition[] = [
     id: "closing",
     title: "Accessibility Is Not a Luxury",
     Component: Slide14Closing,
+  },
+  {
+    id: "thanks",
+    title: "Thank You",
+    Component: Slide15Thanks,
   },
 ];

@@ -11,7 +11,7 @@ export function Slide1Title() {
     <Slide
       title="Accessibility: Making the World Easier for Everyone"
       subtitle="A simple introduction to accessible design in daily life, content, spaces, and technology"
-      imageUrl="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1400&q=80"
+      imageUrl="https://cdn.shopify.com/s/files/1/0830/5505/1060/files/article-3093-image-2.jpg?v=1770454880"
       imageAlt="Diverse people using accessible spaces and tools"
       titleClassName="text-3xl md:text-5xl"
       subtitleClassName="text-base md:text-xl"

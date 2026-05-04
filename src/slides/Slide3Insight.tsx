@@ -10,7 +10,7 @@ export function Slide3Insight() {
   return (
     <Slide
       title="What Does Accessibility Mean?"
-      imageUrl="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1400&q=80"
+      imageUrl="https://www.idiversityconsulting.co.uk/wp-content/uploads/2020/10/Accessibility-1110x550.png"
       imageAlt="Infographic showing different types of user needs"
     >
       <div className="mx-auto grid max-w-4xl gap-3 text-left">
