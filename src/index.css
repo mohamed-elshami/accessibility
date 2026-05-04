@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply box-border;
+  }
+
+  html,
+  body,
+  #root {
+    @apply min-h-screen;
+  }
+
+  body {
+    @apply m-0 bg-base bg-soft-gradient font-sans text-slate-100 antialiased select-none;
+  }
+
+  button:focus-visible,
+  a:focus-visible {
+    @apply outline-none ring-4 ring-cyan-300/70 ring-offset-2 ring-offset-slate-900;
+  }
+}
